@@ -1,0 +1,121 @@
+.output {
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 22rem;
+    position: relative;
+    left: 7px;
+    top: 232px;
+    height: 216px;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    color: whitesmoke;
+
+}
+
+.head{
+    background-image: linear-gradient(to left top, #08d5ff, #4cb4ff, #c27ff6, #fe2a96, #eb1212);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-weight: 800;
+    font-size: xx-large;
+    text-shadow: 2px 5px 5px black;
+
+   
+}
+input#inp{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    height: 38px;
+    width: 16rem;
+    position: relative;
+    top: 8rem;
+    left: 2px;
+    color: rgb(214, 211, 0);
+ 
+}
+
+.search {
+   
+    position: relative;
+    top: 179px;
+    right: 35px;
+    display: flex;
+    flex-direction: row;
+   
+    text-align: center;
+    padding: 8px;
+}
+.clear {
+    position: relative;
+    top: 138px;
+    right: -50px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 8px;
+    width: 66px;
+    margin-left: 0px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.green > p {
+    position: relative;
+    top: 10px;
+    left: 18px;
+    color: yellow;
+    font-size: large;
+    font-weight: 500;
+
+}
+.body{
+
+   
+    background-image: linear-gradient(to right bottom, #c70009, #db003a, #db0073, #b700b8, #000cff); background-repeat: no-repeat;
+ height: 186vh;
+}
+h2{
+    color: whitesmoke;
+    text-shadow: 2px 5px 5px yellow;
+    position: relative;
+    top: 69px;
+
+}
+h3{
+    color: yellow;
+    font-size: x-large;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 0px; 
+  animation: blinker 1s linear infinite;
+
+
+}
+
+    
+@keyframes blinker {
+    50% {
+  
+    background-color: red;
+    border: 13px solid red;
+    }
+}
+@keyframes blinki {
+    50%{
+        background-color: green;
+    }
+}
+.green{
+    animation: blinki 1s linear infinite;
+    height: 216px;
+    border-radius: 15px;
+
+}
