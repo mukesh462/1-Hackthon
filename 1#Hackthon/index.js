@@ -46,7 +46,7 @@ async function output(){
     }
       document.querySelector(".output").innerHTML=`
       <div class="green">
-      <p>Country Name: ${data.name}</p>
+      <p>Name: ${data.name}</p>
       <p>Country ID-1: ${data.country[0].country_id} </p>
       <p>Probability : ${data.country[0].probability}</p>
       <p>Country ID-2: ${data.country[1].country_id}</p> 
